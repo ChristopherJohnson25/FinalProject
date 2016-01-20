@@ -1,4 +1,4 @@
-# FinalProject
+# Final Project
 
 ##Overview
 
@@ -11,3 +11,6 @@ My web app will act as a surf forcast social network platform. It will (hopefull
 * APIs
 * Semantic UI
 
+##WireFrames
+
+!(/readme images/wireframe1.png)
