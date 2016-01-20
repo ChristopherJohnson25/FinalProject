@@ -17,7 +17,7 @@ My web app will act as a surf forcast social network platform. It will (hopefull
 User must navigate to the Sign Up page and enter all pertinant information, the user will then be redirect to the Log-In page.
 
 ###Logged In
-Users can...
+Users who log in are directed to their homepage where they can see a list of favorite surf spots, a search box for finding new spots, and recent social (comments, etc) activity. By clicking on a favorite spot or finding a new one the user can see a bunch of different information (weather charts, maps, weather, swell height) regarding forcasts supplied by the API. On this page a user can comment on the location.
 
 ##WireFrames
 
