@@ -11,6 +11,13 @@ My web app will act as a surf forcast social network platform. It will (hopefull
 * APIs
 * Semantic UI
 
+##User Stories
+
+###Not Logged In
+User must navigate to the Sign Up page and enter all pertinant information, the user will then be redirect to the Log-In page.
+
+###Logged In
+
 ##WireFrames
 
 ![](/readme images/wireframe1.png)![](/readme images/wireframe2.png)
