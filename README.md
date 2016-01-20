@@ -10,6 +10,7 @@ My web app will act as a surf forcast social network platform. It will (hopefull
 * Angular
 * APIs
 * Semantic UI
+* MagicSeaweed API
 
 ##User Stories
 
