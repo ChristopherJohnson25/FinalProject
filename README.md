@@ -13,8 +13,6 @@ My web app will act as a surf forcast social network platform. It will (hopefull
 
 ##WireFrames
 
-![](/readme images/wireframe1.png)
-![](/readme images/wireframe2.png)
-![](/readme images/wireframe3.png)
-![](/readme images/wireframe4.png)
+![](/readme images/wireframe1.png)![](/readme images/wireframe2.png)
+![](/readme images/wireframe3.png)![](/readme images/wireframe4.png)
 ![](/readme images/wireframe5.png)
