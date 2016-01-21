@@ -1,0 +1,32 @@
+{
+  "name": "FinalProject",
+  "version": "1.0.0",
+  "description": "##Overview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherJohnson25/FinalProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristopherJohnson25/FinalProject/issues"
+  },
+  "homepage": "https://github.com/ChristopherJohnson25/FinalProject#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "method-override": "^2.3.5",
+    "mongodb": "^2.1.4",
+    "msw-api": "^0.1.0",
+    "request": "^2.67.0",
+    "semantic-ui": "^2.1.8",
+    "serve-favicon": "^2.3.0"
+  }
+}
