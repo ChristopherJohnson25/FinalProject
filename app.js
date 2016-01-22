@@ -38,29 +38,30 @@ app.use(express.static(path.join(__dirname, 'node_modules')));
 // 	return Math.floor(Math.random()*1234)
 // };
 
-var ids = Array(384,383,381,2159,386,4214,295,4211,669,3682,3051,2226,2568,4147,4149);
-var randoId = ids[Math.floor(Math.random()*ids.length)];
+
 
 
 app.get('/', function(req, res){
-	request('http://magicseaweed.com/api/'+process.env.SEAWEED_KEY+'/forecast/?spot_id='+randoId, function(err, results){
-		if (err) {
-			console.log("error")
-		}
-		body = JSON.parse(results.body)
-		swellDirection = Math.ceil(body[0].swell.components.combined.direction/5)*5
-		res.render('index', {results: body})
-	})
+	var ids = Array(384,383,381,2159,386,4214,295,4211,669,3682,3051,2226,2568,4147,4149);
+	var randoId = ids[Math.floor(Math.random()*ids.length)];
 
-	
-
+	db.collection('locations').find({}).toArray(function(err, locations){
+		request('http://magicseaweed.com/api/'+process.env.SEAWEED_KEY+'/forecast/?spot_id='+randoId, function(err, results){
+			if (err) {
+				console.log("error")
+			}
+			body = JSON.parse(results.body)
+			swellDirection = Math.ceil(body[0].swell.components.combined.direction/5)*5
+			res.render('index', {results: body, locations: locations, randoId: randoId});
+		});
+	});
 });
 
 app.get('/report/:id', function(req, res){
 	var locationId = req.params.id;
 	var locationName = req.params.name;
 	console.log('LOCATION ID ', locationId);
-	request('http://magicseaweed.com/api/'+process.env.SEAWEED_KEY+'/forecast/?spot_id=' + locationId, function(err, results){
+	request('http://magicseaweed.com/api/'+process.env.SEAWEED_KEY+'/forecast/?spot_id='+ locationId, function(err, results){
 		if (err) {
 			console.log("error")
 		}
