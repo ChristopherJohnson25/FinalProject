@@ -3,7 +3,8 @@ var favicon = require('serve-favicon');
 var path = require('path');
 var bodyParser = require('body-parser');
 var request = require('request');
-var ig = require('instagram-node').instagram();
+var Instafeed = require("instafeed.js");
+
 
 var app = express();
 
@@ -25,23 +26,29 @@ MongoClient.connect(mongoUrl, function(err, database){
   process.on('exit', db.close);
 })
 
+
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'bower_components')));
+app.use(express.static(path.join(__dirname, 'node_modules')));
 
+// var getRandom = function(){
+// 	return Math.floor(Math.random()*1234)
+// };
+
+var ids = Array(384,383,381,2159,386,4214,295,4211,669,3682,3051,2226,2568,4147,4149);
+var randoId = ids[Math.floor(Math.random()*ids.length)];
 
 
 app.get('/', function(req, res){
-	request('http://magicseaweed.com/api/'+process.env.SEAWEED_KEY+'/forecast/?spot_id=10', function(err, results){
+	request('http://magicseaweed.com/api/'+process.env.SEAWEED_KEY+'/forecast/?spot_id='+randoId, function(err, results){
 		if (err) {
 			console.log("error")
 		}
 		body = JSON.parse(results.body)
-		// console.log(body)
 		swellDirection = Math.ceil(body[0].swell.components.combined.direction/5)*5
-		// console.log(swellDirection)
 		res.render('index', {results: body})
 	})
 
@@ -51,6 +58,7 @@ app.get('/', function(req, res){
 
 app.get('/report/:id', function(req, res){
 	var locationId = req.params.id;
+	var locationName = req.params.name;
 	console.log('LOCATION ID ', locationId);
 	request('http://magicseaweed.com/api/'+process.env.SEAWEED_KEY+'/forecast/?spot_id=' + locationId, function(err, results){
 		if (err) {

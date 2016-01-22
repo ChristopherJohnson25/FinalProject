@@ -22,9 +22,11 @@
     "body-parser": "^1.14.2",
     "ejs": "^2.3.4",
     "express": "^4.13.3",
+    "instafeed.js": "^1.4.1",
     "method-override": "^2.3.5",
     "mongodb": "^2.1.4",
     "msw-api": "^0.1.0",
+    "passport-facebook": "^2.0.0",
     "request": "^2.67.0",
     "semantic-ui": "^2.1.8",
     "serve-favicon": "^2.3.0"

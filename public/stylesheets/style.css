@@ -3,6 +3,22 @@
 body {
 	background-color: #FFEFEC;
 	font-family: 'Francois One', sans-serif;
+	
+}
+
+.container1 {
 	text-align: center;
+
+}
+
+.chartContainer {
+	width:50%;
+	margin: 0 auto;
+}
+
+.chart {
+	height:60%;
+	width: 60%;
+
 }
 
