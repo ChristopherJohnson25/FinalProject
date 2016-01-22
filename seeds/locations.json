@@ -1,63 +1,78 @@
 [
   {
     "name": "Rockaway Beach, NY",
-    "id": 384
+    "id": 384,
+    "Description": "The closest surfing beach to NYC, the crowds are more challenging here than the waves. Average beachbreaks that need a sizable swell to make it in here with big E swells bringing some decent lefts."
   },
   {
     "name": "Long Beach, NY",
-    "id": 383
+    "id": 383,
+    "Description": "Long Beach faces a bit SW, allowing it to handle the NE winds better. When the rest of Long Island is maxing out, Long Beach jetties will be organized but smaller. Can get hollow and perfect at lower tides."
   },
   {
     "name": "Robert Moses State Park, NY",
-    "id": 381
+    "id": 381,
+    "Description": "On the curved end of Fire Island, this State Park has the easiest access and parking in the city area. Broken into 4 fields, the most easterly lot picks up the most swell, while the western end faces more south meaning it will be smaller but the curve of the beach can line up the lefts quite well. The middle lots can throw-up a nice mid tide shorey, where it usually breaks close to the beach with hollow thumping sections unless the swell is up, when an outer sandbar will hold the ever-shifting goods."
   },
   {
     "name": "Ditch Plains, NY",
-    "id": 2159
+    "id": 2159,
+    "Description": "This mushy left with its workable wall and longer rides is a favored longboard spot. Occasional steeper rights, plus a few faster lefts further to the east. Between here and the lighthouse, there are some more rocky reef spots, which require a long walk."
   },
   {
     "name": "Manasquan, NJ",
-    "id": 386
+    "id": 386,
+    "Description":"A S/SE swell, a W wind, and the bigger the better for this famous jewel of Joisey. Deep water leading to the inlet, a beefy jetty and good sandbars conspire to provide long barreling righthanders. Low to mid and closer to the beach if it’s smaller, when the tall jetty will provide some protection in a southerly wind. Will handle whatever the Atlantic can throw at it without shutting down. People have been known to paddle out the inlet in huge conditions. Generally regarded as the best wave in Jersey, this grinding board-snapper regularly gets as good as the photos. There are also good waves off the shorter jetties further up the beach."
   },
   {
     "name": "WindanSea, SD",
-    "id": 4214
+    "id": 4214,
+    "Description":"Famous reefbreak firmly entrenched in the annals of surfing history. Powerful, thick peak with a long, tapering right and a shorter, hollower left. Either can hold sizeable swells. Best with summer SW swells and any tide; usually bigger than other spots around. Gets very crowded and has a competitive atmosphere"
   },
   {
     "name": "Blacks, SD",
-    "id": 295
+    "id": 295,
+    "Description":"Also known as Torrey Pines City Beach, this is a famous, high-quality half-mile stretch of beachbreak, known for its consistency and power. Usually the biggest spot around. The La Jolla Submarine Canyon funnels swells directly into Blacks, which features three distinct spots: South Peak, a heavy, perfect left; Middle Peak, a two-way affair with the lefts usually being better, and North Peak, a brief but exciting righthand barrel. Blacks holds huge swells, but be prepared for lots of severe rip currents, sneaker sets, and long hold-downs. Very painful if you get caught inside. Gets very crowded."
   },
   {
     "name": "Sunset Cliffs, SD",
-    "id": 4211
+    "id": 4211,
+    "Description":"Picks up all north and south swells. breaks best at medium and low tides."
   },
   {
     "name": "Tavarua Island, Fiji",
-    "id": 669
+    "id": 669,
+    "Description":"Once the exclusive domain of well-heeled surfers able to pay the hefty daily rate to stay at the Tavarua Island surf resort, the Fijian government recently changed the law which allowed the resort to control access to this now legendary reef pass. While the perfect pictures of Cloudbreak suggest flawless left barrels for one and all, this is a tricky wave with multiple sections and a malevolent side that keeps even the best surfers on their toes. The outside section at the top Point of the reef holds plenty of size and the vertiginous roll-ins lead into a flying wall section where speed carves are possible. Middles is where turns are less useful and the barrel starts to wind up, covering a lot of distance in a short time. Insides, or Shish-kabobs, is where the reef gets extremely shallow and the tubes get extremely... extreme! Less confident surfers thinking they can pick off a few on the inside are not going to find any easy rides here and the fingers of razor sharp reef are far less uniform than further out. The 3 sections rarely link up, but when they do, usually on a long period, SSW swell of epic proportions, it is one of the seven wonders of the surf world."
   },
   {
-    "name": "Namotu, Fiji",
-    "id": 3682
+    "name": "Namotu Left, Fiji",
+    "id": 3682,
+    "Description":"Classic left one hop along from Tavarua"
   },
   {
     "name": "Hanalei Bay, Hawaii",
-    "id": 3051
+    "id": 3051,
+    "Description":"Hanalei Bay is the focus of Kauai surfing, providing a range of waves in a small area. Below deluxe Princeville Resort is the righthand pointbreak that everyone wants to ride, crowding the sections of Impossible, Flat Rock and The Bowl on all sizes of board. Speed is king at Hanalei once it gets overhead and maintaining speed through the curvaceous barrels and racetrack walls is key. As size increases, so too does the possibility of linking up the 3 take-off points, but getting caught behind will result in a long journey as the tough current sweeps over the shallow lava/coral bottom and deposits you in the Bowl channel. Good trade wind protection and handles rugged size but it’s a very long paddle and of course, every wave is over-subscribed so the locals are often aggressive. If there's no space, the bay has an embarrassment of riches - try Waikokos wicked lefts, Middles deepwater cracking peaks, Pinetrees perfect walls or head out on the 'skis for some tow in action at Kings and Queens."
   },
   {
     "name": "Log Cabins, Hawaii",
-    "id": 2226
+    "id": 2226,
+    "Description":"Log Cabins is an underrated right that shifts around a lot over an ill-defined reef, relying on peaky N swells to prevent it from shutting down violently. It breaks over a treacherous lava bottom that has sharp, upthrusting fingers and sand fills the gaps in places. From shoulder to overhead it is accessible to experienced riders, but as the size rises, it becomes increasingly malevolent and twisted."
   },
   {
     "name": "Tamarind, Nicaragua",
-    "id": 2568
+    "id": 2568,
+    "Description":"Better sessions should be found at the next beach, Playa Tamarind, where quick barrel opportunities occur on clean small swells, although on most days, the right pointbreak will prove too sectiony."
   },
   {
     "name": "K38, Mexico",
-    "id": 4147
+    "id": 4147,
+    "Description":"K38, aka El Morro, is a famous but very crowded right, peeling fast and hollow over an urchin farm. Best on a S swell, or a stronger W to NW pulse at low to mid. Working on similar swells but higher tides, K38.5 is another fast, walled-up right reef plus a left across the bay. Escape the thicker crowds by paddling to K39, an outside-breaking reef able to produce quality lefts and rights in any sizeable swell."
   },
   {
     "name": "Las Gaviotas, Mexico",
-    "id": 4149
+    "id": 4149,
+    "Description":"Facing a guarded condo community, the semi-private reef off Las Gaviotas is more of a longboard wave for all levels. Sometimes sectiony and often crowded, it prefers a due S swell."
   }
 
 ]
