@@ -8,20 +8,12 @@
 	<link rel="stylesheet" href="stylesheets/icons.css">
 </head>
 <body>
-
 	<h1>Welcome</h1>
-	<select>
-	  <option value="384">Rockaway Beach, NY</option>
-	  <option value="2159">Ditch Plains, Montauk</option>
-	  <option value="4214">WindanSea, La Jolla</option>
-	  <option value="669">Tavarua Island, Fiji</option>
-	  <option value="3682">Namotu, Fiji</option>
-	  <option value="3051">Hanalei Bay, Hawaii</option>
-	</select>
-	<button id="entry" type="button">Click Me!</button>
+	<select id="select-locations"></select>
+	<button id="entry" type="button">Submit</button>
 
 	<h3>Wave Height</h3>
-	<h2><%= results[0].swell.minBreakingHeight %></h2>
+	<h2><%= results[0].swell.minBreakingHeight %>ft</h2>
 	<h3>Charts</h3>
 	<img src="<%=results[0].charts.swell %>">
 	<img src="<%=results[0].charts.wind %>">
