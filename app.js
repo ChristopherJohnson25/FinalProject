@@ -3,8 +3,7 @@ var favicon = require('serve-favicon');
 var path = require('path');
 var bodyParser = require('body-parser');
 var request = require('request');
-// var msw = require('msw-api');
-
+var ig = require('instagram-node').instagram();
 
 var app = express();
 
@@ -26,9 +25,6 @@ MongoClient.connect(mongoUrl, function(err, database){
   process.on('exit', db.close);
 })
 
-
-// msw.set({ apiKey: process.env.SEAWEED_KEY, units: 'us' });
-
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -36,11 +32,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'bower_components')));
 
 
-// msw.forecast(358).then(function (forecast) {
-//    console.log('Successfully retrieved data for New Jersey');
-// }, function (err) {
-//     console.log('ERR: encountered error getting MSW data: ' + err);
-// });
 
 app.get('/', function(req, res){
 	request('http://magicseaweed.com/api/'+process.env.SEAWEED_KEY+'/forecast/?spot_id=10', function(err, results){
@@ -66,17 +57,9 @@ app.get('/report/:id', function(req, res){
 			console.log("error")
 		}
 		var body = JSON.parse(results.body);
-		console.log('BODY ', body);
+		// console.log('BODY ', body);
 		swellDirection = Math.ceil(body[0].swell.components.combined.direction/5)*5
 		res.render('report', {results: body})
-	});
-	request('https://api.instagram.com/v1/tags/rockawaybeach/media/recent?access_token='+process.env.INSTAGRAM_KEY, function(err, results){
-		if (err) {
-			console.log("error")
-		}
-		var instagramData = JSON.parse(results.body);
-		console.log('BODY ', instagramData);
-		res.render('report', {results: instagramData})
 	});
 });
 
@@ -85,7 +68,6 @@ app.get('/api/locations', function(req, res) {
 	db.collection('locations').find({}).toArray(function(err, result) {
  		res.send(result) 
  	})
-	// res.end();
 });
 
 

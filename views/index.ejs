@@ -17,11 +17,12 @@
 	<h3>Charts</h3>
 	<img src="<%=results[0].charts.swell %>">
 	<img src="<%=results[0].charts.wind %>">
-	<h3>Local Weather</h3>
+	<h3>Local Weather</h3> 
 	<div class="msw-sw msw-sw-<%= results[0].condition.weather %>"></div>
 	<h3>Local Swell Direction</h3>
 	<div class="msw-swa msw-swa-<%= swellDirection %>"></div>
 	<h3>Local Wind Direction</h3>
 	<div class="msw-ssa msq-ssa-<%= results[0].wind.direction %>"></div>
+	<div id="instafeed"></div>
 </body>
 </html>

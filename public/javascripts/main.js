@@ -1,6 +1,6 @@
 console.log("linked")
 
-$( document ).ready(function() {
+$(document ).ready(function() {
     console.log( "ready!" );
 
     var selectLocations;
