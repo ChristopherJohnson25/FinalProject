@@ -23,6 +23,7 @@
     "ejs": "^2.3.4",
     "express": "^4.13.3",
     "instafeed.js": "^1.4.1",
+    "lightbox2": "^2.8.2",
     "method-override": "^2.3.5",
     "mongodb": "^2.1.4",
     "msw-api": "^0.1.0",
