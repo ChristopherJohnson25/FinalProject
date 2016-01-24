@@ -9,19 +9,20 @@
 	<link rel="stylesheet" href="stylesheets/style.css">
 	<link rel="stylesheet" href="stylesheets/icons.css">
 	
+	
 </head>
 <body>
 	<div class="container1">
+		<div class="menu">
+			<!-- <h1>Welcome</h1> -->
+			<select class="ui fluid dropdown" id="select-locations">
+			<% locations.forEach(function(location){ %>
+				<option value="<%= location.id %>" <%= randoId === location.id ? 'selected' : '' %>><%= location.name%></option>
+			<%})%>
+			</select>
+			<button class="ui blue basic button" id="entry" type="button">Submit</button>
+		</div>
 		<div class="contentSplash">
-			<div class="menu">
-				<!-- <h1>Welcome</h1> -->
-				<select class="ui fluid dropdown" id="select-locations">
-				<% locations.forEach(function(location){ %>
-					<option value="<%= location.id %>" <%= randoId === location.id ? 'selected' : '' %>><%= location.name%></option>
-				<%})%>
-				</select>
-				<button class="ui blue basic button" id="entry" type="button">Submit</button>
-			</div>
 			<div class="ajax1">
 				<h3>Wave Height</h3>
 				<h2><%= results[0].swell.minBreakingHeight %>-<%= results[0].swell.maxBreakingHeight %>ft</h2>
@@ -33,11 +34,9 @@
 				<h3>Local Wind Direction</h3>
 				<h4><%= results[0].wind.compassDirection %></h4>
 				<div class="msw-ssa msq-ssa-<%= results[0].wind.direction %>"></div>
-				<!-- <div class="chartContainer">
-					<h3>Charts</h3>
-					<img class="chart" src="<%=results[0].charts.swell %>">
-					<img class="chart" src="<%=results[0].charts.wind %>">
-				</div> -->
+				<div class="logo">
+					<a href="http://magicseaweed.com" target="_blank"><img src="http://im-1-uk.msw.ms/msw_powered_by.png"></a>
+				</div>
 			</div>
 		</div>
 		<div class="side">
@@ -47,8 +46,6 @@
 				<%})%>
 			</div>
 		</div>
-
-		<a class="logo" href="http://magicseaweed.com" target="_blank"><img src="http://im-1-uk.msw.ms/msw_powered_by.png"></a>
 	</div>
 </body>
 </html>

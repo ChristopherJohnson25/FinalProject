@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div class="container1">
-		<h1>Surf Forcast for <%=spot.name%> </h1>
+		<h1>Surf Forecast for <%=spot.name%> </h1>
 		<h3>Wave Height</h3>
 		<h2><%= results[0].swell.minBreakingHeight %>-<%= results[0].swell.maxBreakingHeight %>ft</h2>
 		<div>
@@ -35,7 +35,7 @@
 		<h3>Local Wind Direction</h3>
 		<h4><%= results[0].wind.compassDirection %></h4>
 		<div class="msw-ssa msq-ssa-<%= results[0].wind.direction %>"></div>
-		<a href="http://magicseaweed.com" target="_blank"><img src="http://im-1-uk.msw.ms/msw_powered_by.png"></a>
+<!-- 		<a href="http://magicseaweed.com" target="_blank"><img src="http://im-1-uk.msw.ms/msw_powered_by.png"></a> -->
 	</div>
 </body>
 </html>
