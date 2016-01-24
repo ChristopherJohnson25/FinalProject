@@ -4,17 +4,29 @@
 	<title></title>
 	<script src="../jquery/dist/jquery.js"></script>
 	<script src="../javascripts/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="../semantic-ui/dist/semantic.min.css">
+	<script src="../semantic-ui/dist/semantic.min.js"></script>
 	<link rel="stylesheet" href="../stylesheets/style.css">
 	<link rel="stylesheet" href="../stylesheets/icons.css">
 </head>
 <body>
 	<div class="container1">
-		<h1>Surf Forcast for <%=locationName%> </h1>
+		<h1>Surf Forcast for <%=spot.name%> </h1>
 		<h3>Wave Height</h3>
 		<h2><%= results[0].swell.minBreakingHeight %>-<%= results[0].swell.maxBreakingHeight %>ft</h2>
-		<h3>Charts</h3>
-		<img class="chart" src="<%=results[0].charts.swell %>">
-		<img class="chart" src="<%=results[0].charts.wind %>">
+		<div>
+			<h3>Charts</h3>
+			<img id="chart1" class="chart" src="<%=results[0].charts.swell %>">
+			<img id="chart2" class="chart" src="<%=results[0].charts.wind %>">
+
+			<div class=" chartModal long modal">
+				<div class="ui fluid image content">
+					<img src="<%=results[0].charts.swell %>">
+					<img  src="<%=results[0].charts.wind %>">
+				</div>
+			</div>
+
+		</div>
 		<h3>Local Weather</h3>
 		<div class="msw-sw msw-sw-<%= results[0].condition.weather %>"></div>
 		<h3>Local Swell Direction</h3>

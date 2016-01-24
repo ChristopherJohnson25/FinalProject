@@ -39,6 +39,22 @@ $.ajax({
         })
     })
 
+  $('#chart1, #chart2').click(function(){
+        console.log('charts clicked')
+        $('.long.modal')
+        .modal('show')
+    });
+
+    // $('#pic').click(function(){
+    //     console.log('picture clicked')
+    //     $('.ui.basic.modal')
+    //     .modal('show')
+    // });
+
+
+
+
+
     // $.get('/api/locations').done(function(data) {
     //     console.log('SUCCESS DATA ', data);
     //     _selectOptions(data);

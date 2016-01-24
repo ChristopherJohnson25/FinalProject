@@ -18,9 +18,24 @@ body {
 }
 
 .chart {
-	height:60%;
-	width: 60%;
+	height:30%;
+	width: 30%;
+	padding: 10px;
+	border-radius: 35px;
+}
 
+.chart:hover {
+	cursor: pointer;
+}
+
+.chartModal {
+	width:70%;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.chartModal img {
+	padding-bottom: 50px;
 }
 
 .menu {
@@ -41,8 +56,33 @@ body {
 .ajax1 {
 	border-style: solid;
 	border-color: #0E3757;
-	width:50%;
+	width:100%;
+	height: 75%;
 	margin: 0 auto;
 	padding: 10px;
+	margin-bottom: 30px;
 
+}
+
+#pic {
+	padding-top: 10px;
+
+}
+
+.side {
+	width: 60%;
+	float: right;
+	margin-top: 20px;
+	margin-left: -20px;
+}
+
+.contentSplash {
+	width: 40%;
+	float: left;
+}
+
+.logo {
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
 }

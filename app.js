@@ -44,7 +44,6 @@ app.use(express.static(path.join(__dirname, 'node_modules')));
 app.get('/', function(req, res){
 	var ids = Array(384,383,381,2159,386,4214,295,4211,669,3682,3051,2226,2568,4147,4149);
 	var randoId = ids[Math.floor(Math.random()*ids.length)];
-
 	db.collection('locations').find({}).toArray(function(err, locations){
 		request('http://magicseaweed.com/api/'+process.env.SEAWEED_KEY+'/forecast/?spot_id='+randoId, function(err, results){
 			if (err) {
@@ -59,24 +58,28 @@ app.get('/', function(req, res){
 
 app.get('/report/:id', function(req, res){
 	var locationId = req.params.id;
-	locationName = req.params.name;
-	console.log('LOCATION ID ', locationId);
-	request('http://magicseaweed.com/api/'+process.env.SEAWEED_KEY+'/forecast/?spot_id='+ locationId, function(err, results){
-		if (err) {
-			console.log("error!", err)
-		}
-		try {
-			var body = JSON.parse(results.body);
-			// console.log('BODY ', body);
-			swellDirection = Math.ceil(body[0].swell.components.combined.direction/5)*5
-			res.render('report', {results: body})
-			
-		} catch(e) {
-			console.log(e);
-			res.send("we're sorry. we're having some problems with the api");
-		}
+	console.log(locationId);
+	db.collection('locations').find({id:locationId}).toArray(function(err, spot) {
+		request('http://magicseaweed.com/api/'+process.env.SEAWEED_KEY+'/forecast/?spot_id='+ locationId, function(err, results){
+			if (err) {
+				console.log("error!", err)
+			} try {
+				var body = JSON.parse(results.body);
+				swellDirection = Math.ceil(body[0].swell.components.combined.direction/5)*5
+				res.render('report', {results: body, locationId: locationId, spot: spot})
+			} catch(e) {
+				console.log(e);
+				res.send("We're sorry. we're having some problems with the api.");
+			}
+		});
+		console.log(spot)//empty array!?!?!?!
 	});
 });
+
+
+
+
+
 
 app.get('/api/locations', function(req, res) {
 	console.log('HIT API LOCATIONS');
