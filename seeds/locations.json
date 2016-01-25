@@ -1,4 +1,4 @@
-[
+
   {
     "name": "Rockaway Beach, NY",
     "id": 384,
@@ -7,7 +7,7 @@
     "img2":"http://assets.nydailynews.com/polopoly_fs/1.1845650!/img/httpImage/image.jpg_gen/derivatives/article_635/surf27q-1-web.jpg",
     "img3":"http://www.surfline.com/travel/surfmaps/us/sanfrancisco_monterey/images/montgomery_rockaway.jpg",
     "img4":"http://www.thesurfchannel.com/newwave/wp-content/uploads/2012/10/HurricaneSandy_RockawayBeach_NY-NJ-Surf1.jpeg"
-  },
+  }
   {
     "name": "Robert Moses State Park, NY",
     "id": 381,
@@ -16,7 +16,7 @@
     "img2":"http://i.cdn-surfline.com/travel/surfmaps/us/Mid_Atlantic/GilgoBeach_Nelson.jpg",
     "img3":"http://i.cdn-surfline.com/travel/surfmaps/us/Mid_Atlantic/GilgoBeach_Nelson.jpg",
     "img4":"http://takegreatpictures.com/app/webroot/content/2010_images/2011/02/07/gilgo_beach_surfing_028.jpg"
-  },
+  }
   {
     "name": "Ditch Plains, NY",
     "id": 2159,
@@ -25,7 +25,7 @@
     "img2":"http://content.clickbooq.com/568/photos/c14594fe51.jpg",
     "img3":"http://www.nysea.com/wp-content/uploads/2015/01/Afternoon-light.jpg",
     "img4":"http://www.surferjims.com/frances2004.jpg"
-  },
+  }
   {
     "name": "Manasquan, NJ",
     "id": 386,
@@ -34,7 +34,7 @@
     "img2":"http://www.surfline.com/surfnews/images/2008/01_january/manasquan_spotcheck/full/11_robinson.jpg",
     "img3":"http://a3.espncdn.com/photo/2014/0514/as_surf_squan_2048.jpg",
     "img4":"http://www.thesurfchannel.com/newwave/wp-content/uploads/2014/11/lineup-bayead_-Matthew-Lang.jpg"
-  },
+  }
   {
     "name": "WindanSea, SD",
     "id": 4214,
@@ -43,7 +43,7 @@
     "img2":"http://www.hungrywalrus.com/wp-content/uploads/2012/01/405755_358778277481325_2005067889_n.jpg",
     "img3":"http://encyclopediaofsurfing.com/wp-content/uploads/2012/12/Windansea_crew_1950s.jpg",
     "img4":"http://cdn.grindtv.com/wp-content/uploads/2015/06/Wind-An-Sea-Surf-Club-V1-1024x696.jpg"
-  },
+  }
   {
     "name": "Blacks, SD",
     "id": 295,
@@ -52,7 +52,7 @@
     "img2":"http://i.cdn-surfline.com/surfnews/images/2011/09_september/spotcheck_blacks/full/04.jpg",
     "img3":"http://www.dailystoke.com/wp-content/uploads/2011/12/12.jpg",
     "img4":"http://stwww.surfingmagazine.com/wp-content/uploads/2014/01/05jimmicane_CA_04blacksrandoms.jpg"
-  },
+  }
   {
     "name": "Sunset Cliffs, SD",
     "id": 4211,
@@ -61,7 +61,7 @@
     "img2":"https://groksurf.files.wordpress.com/2013/12/dsc6947a.jpg",
     "img3":"http://media0.trover.com/T/54d4f5f4d809d846940025e2/fixedw_large_4x.jpg",
     "img4":"https://sergededina.files.wordpress.com/2012/10/pointloma_evanso2r98011.jpg"
-  },
+  }
   {
     "name": "Tavarua Island, Fiji",
     "id": 669,
@@ -70,7 +70,7 @@
     "img2":"http://www.tavarua.com/sites/default/files/tavarua-resort-photos/tavarua-island-resort_0.jpg",
     "img3":"http://i.cdn-surfline.com/travel/summer-resort-guide/resorts/tavarua/tavarua_fiji-5.jpg",
     "img4":"http://www.surftravel.com.au/surftravel/cache/file/0F08893C-F947-55E6-B6F5F999E19A2A7E_medium.jpg"
-  },
+  }
   {
     "name": "Namotu Left, Fiji",
     "id": 3682,
@@ -79,7 +79,7 @@
     "img2":"http://www.coastalwatch.com/images/articleimage?image=01namotu_2011921152842.jpg",
     "img3":"http://assets-namotuisland-com.s3.amazonaws.com/production/articles/_0006.jpg",
     "img4":"http://www.fijisurfshots.com/uploads/5/4/1/0/5410909/3874607_orig.jpg"
-  },
+  }
   {
     "name": "Hanalei Bay, Hawaii",
     "id": 3051,
@@ -88,7 +88,7 @@
     "img2":"http://www.hawaiiansurfadventures.com/wp-content/uploads/2013/10/kauai-surfer.jpg",
     "img3":"http://cdn.c.photoshelter.com/img-get2/I0000FVGySRA0YpA/fit=1000x750/Laird-Hamilton-Stand-Up-Paddle-Surfing-Hanalei-Bay-Kauai-Hawaii-SUP-455-MarkAJohnson.jpg",
     "img4":"http://www.lloydgodman.net/archive/Hawaii/Hawaii046A.jpg"
-  },
+  }
   {
     "name": "Log Cabins, Hawaii",
     "id": 2226,
@@ -97,7 +97,7 @@
     "img2":"http://www.jeffdivinesurf.com/data/photos/1074_1wipe_out_logs_by_jeff_divine_.jpg",
     "img3":"http://encyclopediaofsurfing.com/wp-content/uploads/2013/03/Hank_Photo_OuterLogs_Jan28_1998.jpg",
     "img4":"http://a.espncdn.com/photo/2014/1016/as_bwsgallery07_outerlogcabins_bradshaw_2048.jpg"
-  },
+  }
   {
     "name": "Tamarind, Nicaragua",
     "id": 2568,
@@ -106,7 +106,7 @@
     "img2":"https://surfnicaragua.files.wordpress.com/2010/07/coloradolow_2561.jpg",
     "img3":"http://i.cdn-surfline.com/travel/surfmaps/nicaragua/ElTransito_Travel.jpg",
     "img4":"http://cdn2.hubspot.net/hub/462055/file-2727906597-jpg/blog-files/man-surfing-ts.jpg"
-  },
+  }
   {
     "name": "K38, Mexico",
     "id": 4147,
@@ -115,7 +115,7 @@
     "img2":"http://www.surf-forecast.com/system/images/9471/large/K-38.jpg?1386376912",
     "img3":"http://wavecation.com/sites/default/files/imagecache/property/as_surf_baja_tube_576.jpg",
     "img4":"http://www.robertsk38.com/IMG_1402.jpg"
-  },
+  }
   {
     "name": "Las Gaviotas, Mexico",
     "id": 4149,
@@ -124,7 +124,7 @@
     "img2":"http://www.thesurfersguides.com/sitebuilder/images/K38-600x348.jpg",
     "img3":"https://imagesus-ssl.homeaway.com/mda01/963154c2-1ca2-4de9-add6-679c5f319593.1.10",
     "img4":"http://stwww.surfermag.com/wp-content/uploads/2014/05/ellis_BAJA-7183.jpg"
-  },
+  }
   {
     "name": "Lance's Left, Mentawai Islands",
     "id": 625,
@@ -133,7 +133,7 @@
     "img2":"http://www.arimbi.com.au/wp-content/uploads/2013/03/homepage-lances-left.jpg",
     "img3":"http://jasonwolcottphotography.com/wp-content/uploads/2012/02/mentawai-island-life.jpg",
     "img4":"http://resortlatitudezero.com/wp-content/uploads/2012/07/SWSS0354-copy.jpg"
-  },
+  }
    {
     "name": "Calafia, Mexico",
     "id": 4145,
@@ -144,4 +144,3 @@
     "img4":"http://www.superstokedmagazine.com/wp-content/uploads/2013/06/wikimedia-baja-malibu.jpg"
   }
 
-]
