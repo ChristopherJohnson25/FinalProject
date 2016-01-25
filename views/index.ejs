@@ -8,15 +8,14 @@
 	<script src="semantic-ui/dist/semantic.min.js"></script>
 	<link rel="stylesheet" href="stylesheets/style.css">
 	<link rel="stylesheet" href="stylesheets/icons.css">
-	
-	
+	<link href="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 	<div class="pano"></div>
 	<div class="container1">
 		<div class="menu">
 			<!-- <h1>Welcome</h1> -->
-			<select class="ui fluid dropdown" id="select-locations">
+			<select class="ui fluid selection dropdown" id="select-locations">
 			<% locations.forEach(function(location){ %>
 				<option value="<%= location.id %>" <%= randoId === location.id ? 'selected' : '' %>><%= location.name%></option>
 			<%})%>
@@ -43,10 +42,11 @@
 		<div class="side">
 			<div id="pic" class="ui small images photos ">
 				<% locations.forEach(function(location){ %>
-					<img height="300px" width="300px" src="<%= location.img %>">
+					<a href="<%=location.img%>" data-featherlight="image"><img height="300px" width="300px" src="<%= location.img %>"><%=location.name %></a>
 				<%})%>
 			</div>
 		</div>
 	</div>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>

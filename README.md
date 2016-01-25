@@ -7,11 +7,10 @@ My web app will act as a surf forcast social network platform. It will (hopefull
 ##Technologies Used
 * Node Js
 * Mongo DB
-* Angular
 * APIs
 * Semantic UI
 * MagicSeaweed API
-* Instagram API
+
 
 ##User Stories
 

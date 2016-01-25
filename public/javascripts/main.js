@@ -45,6 +45,20 @@ $.ajax({
         .modal('show')
     });
 
+    $('.ui.dropdown')
+    .dropdown({
+        diection: 'upward'
+    });
+
+    $('.ui.rating')
+    .rating({
+    initialRating: 3,
+    maxRating: 5
+    });
+
+
+
+
     // $('#pic').click(function(){
     //     console.log('picture clicked')
     //     $('.ui.basic.modal')
