@@ -4,103 +4,144 @@
     "id": 384,
     "Description": "The closest surfing beach to NYC, the crowds are more challenging here than the waves. Average beachbreaks that need a sizable swell to make it in here with big E swells bringing some decent lefts.",
     "img": "http://nysurfer.com/wp-content/uploads/2012/10/sandy1.jpg",
-    "img2":"http://assets.nydailynews.com/polopoly_fs/1.1845650!/img/httpImage/image.jpg_gen/derivatives/article_635/surf27q-1-web.jpg"
-  },
-  {
-    "name": "Long Beach, NY",
-    "id": 383,
-    "Description": "Long Beach faces a bit SW, allowing it to handle the NE winds better. When the rest of Long Island is maxing out, Long Beach jetties will be organized but smaller. Can get hollow and perfect at lower tides.",
-    "img":"http://surfbang.com/wp-content/uploads/2013/03/long-beach-surfing-waves-capture-share-repeat.jpg",
-    "img2":"http://si.wsj.net/public/resources/images/NY-BD958_SPRTS__G_20110901211316.jpg"
+    "img2":"http://assets.nydailynews.com/polopoly_fs/1.1845650!/img/httpImage/image.jpg_gen/derivatives/article_635/surf27q-1-web.jpg",
+    "img3":"http://www.surfline.com/travel/surfmaps/us/sanfrancisco_monterey/images/montgomery_rockaway.jpg",
+    "img4":"http://www.thesurfchannel.com/newwave/wp-content/uploads/2012/10/HurricaneSandy_RockawayBeach_NY-NJ-Surf1.jpeg"
   },
   {
     "name": "Robert Moses State Park, NY",
     "id": 381,
     "Description": "On the curved end of Fire Island, this State Park has the easiest access and parking in the city area. Broken into 4 fields, the most easterly lot picks up the most swell, while the western end faces more south meaning it will be smaller but the curve of the beach can line up the lefts quite well. The middle lots can throw-up a nice mid tide shorey, where it usually breaks close to the beach with hollow thumping sections unless the swell is up, when an outer sandbar will hold the ever-shifting goods.",
     "img":"http://cdn1.theinertia.com/wp-content/gallery/jim-cook/jcook26.jpg",
-    "img2":"http://i.cdn-surfline.com/travel/surfmaps/us/Mid_Atlantic/GilgoBeach_Nelson.jpg"
+    "img2":"http://i.cdn-surfline.com/travel/surfmaps/us/Mid_Atlantic/GilgoBeach_Nelson.jpg",
+    "img3":"http://i.cdn-surfline.com/travel/surfmaps/us/Mid_Atlantic/GilgoBeach_Nelson.jpg",
+    "img4":"http://takegreatpictures.com/app/webroot/content/2010_images/2011/02/07/gilgo_beach_surfing_028.jpg"
   },
   {
     "name": "Ditch Plains, NY",
     "id": 2159,
     "Description": "This mushy left with its workable wall and longer rides is a favored longboard spot. Occasional steeper rights, plus a few faster lefts further to the east. Between here and the lighthouse, there are some more rocky reef spots, which require a long walk.",
     "img":"http://cdn1.theinertia.com/wp-content/gallery/james-katsipis/bg7a2071.jpg",
-    "img2":"http://content.clickbooq.com/568/photos/c14594fe51.jpg"
+    "img2":"http://content.clickbooq.com/568/photos/c14594fe51.jpg",
+    "img3":"http://www.nysea.com/wp-content/uploads/2015/01/Afternoon-light.jpg",
+    "img4":"http://www.surferjims.com/frances2004.jpg"
   },
   {
     "name": "Manasquan, NJ",
     "id": 386,
     "Description":"A S/SE swell, a W wind, and the bigger the better for this famous jewel of Joisey. Deep water leading to the inlet, a beefy jetty and good sandbars conspire to provide long barreling righthanders. Low to mid and closer to the beach if it’s smaller, when the tall jetty will provide some protection in a southerly wind. Will handle whatever the Atlantic can throw at it without shutting down. People have been known to paddle out the inlet in huge conditions. Generally regarded as the best wave in Jersey, this grinding board-snapper regularly gets as good as the photos. There are also good waves off the shorter jetties further up the beach.",
     "img":"http://www.surf-forecast.com/system/images/3555/large/Manasquan-Inlet.jpg?1319370360",
-    "img2":"http://www.surfline.com/surfnews/images/2008/01_january/manasquan_spotcheck/full/11_robinson.jpg"
+    "img2":"http://www.surfline.com/surfnews/images/2008/01_january/manasquan_spotcheck/full/11_robinson.jpg",
+    "img3":"http://a3.espncdn.com/photo/2014/0514/as_surf_squan_2048.jpg",
+    "img4":"http://www.thesurfchannel.com/newwave/wp-content/uploads/2014/11/lineup-bayead_-Matthew-Lang.jpg"
   },
   {
     "name": "WindanSea, SD",
     "id": 4214,
     "Description":"Famous reefbreak firmly entrenched in the annals of surfing history. Powerful, thick peak with a long, tapering right and a shorter, hollower left. Either can hold sizeable swells. Best with summer SW swells and any tide; usually bigger than other spots around. Gets very crowded and has a competitive atmosphere",
     "img":"https://hydrodynamica.files.wordpress.com/2015/03/march-madness-not_01.jpg",
-    "img2":"http://www.hungrywalrus.com/wp-content/uploads/2012/01/405755_358778277481325_2005067889_n.jpg"
+    "img2":"http://www.hungrywalrus.com/wp-content/uploads/2012/01/405755_358778277481325_2005067889_n.jpg",
+    "img3":"http://encyclopediaofsurfing.com/wp-content/uploads/2012/12/Windansea_crew_1950s.jpg",
+    "img4":"http://cdn.grindtv.com/wp-content/uploads/2015/06/Wind-An-Sea-Surf-Club-V1-1024x696.jpg"
   },
   {
     "name": "Blacks, SD",
     "id": 295,
     "Description":"Also known as Torrey Pines City Beach, this is a famous, high-quality half-mile stretch of beachbreak, known for its consistency and power. Usually the biggest spot around. The La Jolla Submarine Canyon funnels swells directly into Blacks, which features three distinct spots: South Peak, a heavy, perfect left; Middle Peak, a two-way affair with the lefts usually being better, and North Peak, a brief but exciting righthand barrel. Blacks holds huge swells, but be prepared for lots of severe rip currents, sneaker sets, and long hold-downs. Very painful if you get caught inside. Gets very crowded.",
     "img":"http://i.cdn-surfline.com/surfnews/images/2014/01_january/cali_swell/full/Canavarro_Unknown-surfer_Blacks-(7-of-8).jpg",
-    "img2":"http://i.cdn-surfline.com/surfnews/images/2011/09_september/spotcheck_blacks/full/04.jpg"
+    "img2":"http://i.cdn-surfline.com/surfnews/images/2011/09_september/spotcheck_blacks/full/04.jpg",
+    "img3":"http://www.dailystoke.com/wp-content/uploads/2011/12/12.jpg",
+    "img4":"http://stwww.surfingmagazine.com/wp-content/uploads/2014/01/05jimmicane_CA_04blacksrandoms.jpg"
   },
   {
     "name": "Sunset Cliffs, SD",
     "id": 4211,
     "Description":"Picks up all north and south swells. breaks best at medium and low tides.",
-    "img":"https://balikid.files.wordpress.com/2010/09/5042369184_32e81366d4_z.jpg"
+    "img":"https://balikid.files.wordpress.com/2010/09/5042369184_32e81366d4_z.jpg",
+    "img2":"https://groksurf.files.wordpress.com/2013/12/dsc6947a.jpg",
+    "img3":"http://media0.trover.com/T/54d4f5f4d809d846940025e2/fixedw_large_4x.jpg",
+    "img4":"https://sergededina.files.wordpress.com/2012/10/pointloma_evanso2r98011.jpg"
   },
   {
     "name": "Tavarua Island, Fiji",
     "id": 669,
     "Description":"Once the exclusive domain of well-heeled surfers able to pay the hefty daily rate to stay at the Tavarua Island surf resort, the Fijian government recently changed the law which allowed the resort to control access to this now legendary reef pass. While the perfect pictures of Cloudbreak suggest flawless left barrels for one and all, this is a tricky wave with multiple sections and a malevolent side that keeps even the best surfers on their toes. The outside section at the top Point of the reef holds plenty of size and the vertiginous roll-ins lead into a flying wall section where speed carves are possible. Middles is where turns are less useful and the barrel starts to wind up, covering a lot of distance in a short time. Insides, or Shish-kabobs, is where the reef gets extremely shallow and the tubes get extremely... extreme! Less confident surfers thinking they can pick off a few on the inside are not going to find any easy rides here and the fingers of razor sharp reef are far less uniform than further out. The 3 sections rarely link up, but when they do, usually on a long period, SSW swell of epic proportions, it is one of the seven wonders of the surf world.",
-    "img":"https://waterwaystravel.com/wp-content/uploads/2012/04/TavaruaBarrel.jpg"
+    "img":"https://waterwaystravel.com/wp-content/uploads/2012/04/TavaruaBarrel.jpg",
+    "img2":"http://www.tavarua.com/sites/default/files/tavarua-resort-photos/tavarua-island-resort_0.jpg",
+    "img3":"http://i.cdn-surfline.com/travel/summer-resort-guide/resorts/tavarua/tavarua_fiji-5.jpg",
+    "img4":"http://www.surftravel.com.au/surftravel/cache/file/0F08893C-F947-55E6-B6F5F999E19A2A7E_medium.jpg"
   },
   {
     "name": "Namotu Left, Fiji",
     "id": 3682,
     "Description":"Classic left one hop along from Tavarua",
-    "img":"http://www.tavarua.com/sites/default/files/tavarua-resort-photos/crop_MG_0285.jpg"
+    "img":"http://www.tavarua.com/sites/default/files/tavarua-resort-photos/crop_MG_0285.jpg",
+    "img2":"http://www.coastalwatch.com/images/articleimage?image=01namotu_2011921152842.jpg",
+    "img3":"http://assets-namotuisland-com.s3.amazonaws.com/production/articles/_0006.jpg",
+    "img4":"http://www.fijisurfshots.com/uploads/5/4/1/0/5410909/3874607_orig.jpg"
   },
   {
     "name": "Hanalei Bay, Hawaii",
     "id": 3051,
     "Description":"Hanalei Bay is the focus of Kauai surfing, providing a range of waves in a small area. Below deluxe Princeville Resort is the righthand pointbreak that everyone wants to ride, crowding the sections of Impossible, Flat Rock and The Bowl on all sizes of board. Speed is king at Hanalei once it gets overhead and maintaining speed through the curvaceous barrels and racetrack walls is key. As size increases, so too does the possibility of linking up the 3 take-off points, but getting caught behind will result in a long journey as the tough current sweeps over the shallow lava/coral bottom and deposits you in the Bowl channel. Good trade wind protection and handles rugged size but it’s a very long paddle and of course, every wave is over-subscribed so the locals are often aggressive. If there's no space, the bay has an embarrassment of riches - try Waikokos wicked lefts, Middles deepwater cracking peaks, Pinetrees perfect walls or head out on the 'skis for some tow in action at Kings and Queens.",
-    "img":"http://bestbeachvacationsin.com/wp-content/uploads/2014/04/Surfing-Hanalei-Bay-Kauai-Hawaii.jpg"
+    "img":"http://bestbeachvacationsin.com/wp-content/uploads/2014/04/Surfing-Hanalei-Bay-Kauai-Hawaii.jpg",
+    "img2":"http://www.hawaiiansurfadventures.com/wp-content/uploads/2013/10/kauai-surfer.jpg",
+    "img3":"http://cdn.c.photoshelter.com/img-get2/I0000FVGySRA0YpA/fit=1000x750/Laird-Hamilton-Stand-Up-Paddle-Surfing-Hanalei-Bay-Kauai-Hawaii-SUP-455-MarkAJohnson.jpg",
+    "img4":"http://www.lloydgodman.net/archive/Hawaii/Hawaii046A.jpg"
   },
   {
     "name": "Log Cabins, Hawaii",
     "id": 2226,
     "Description":"Log Cabins is an underrated right that shifts around a lot over an ill-defined reef, relying on peaky N swells to prevent it from shutting down violently. It breaks over a treacherous lava bottom that has sharp, upthrusting fingers and sand fills the gaps in places. From shoulder to overhead it is accessible to experienced riders, but as the size rises, it becomes increasingly malevolent and twisted.",
-    "img":"http://stabmag.com/wp-content/uploads/2012/01/Archy.jpg"
+    "img":"http://stabmag.com/wp-content/uploads/2012/01/Archy.jpg",
+    "img2":"http://www.jeffdivinesurf.com/data/photos/1074_1wipe_out_logs_by_jeff_divine_.jpg",
+    "img3":"http://encyclopediaofsurfing.com/wp-content/uploads/2013/03/Hank_Photo_OuterLogs_Jan28_1998.jpg",
+    "img4":"http://a.espncdn.com/photo/2014/1016/as_bwsgallery07_outerlogcabins_bradshaw_2048.jpg"
   },
   {
     "name": "Tamarind, Nicaragua",
     "id": 2568,
     "Description":"Better sessions should be found at the next beach, Playa Tamarind, where quick barrel opportunities occur on clean small swells, although on most days, the right pointbreak will prove too sectiony.",
-    "img":"http://1.bp.blogspot.com/-SVX3Rlu6PGU/Tji3IbFe-2I/AAAAAAAAADw/KpikE1beAGo/s1600/IMG_4559WebCol.jpg"
+    "img":"http://1.bp.blogspot.com/-SVX3Rlu6PGU/Tji3IbFe-2I/AAAAAAAAADw/KpikE1beAGo/s1600/IMG_4559WebCol.jpg",
+    "img2":"https://surfnicaragua.files.wordpress.com/2010/07/coloradolow_2561.jpg",
+    "img3":"http://i.cdn-surfline.com/travel/surfmaps/nicaragua/ElTransito_Travel.jpg",
+    "img4":"http://cdn2.hubspot.net/hub/462055/file-2727906597-jpg/blog-files/man-surfing-ts.jpg"
   },
   {
     "name": "K38, Mexico",
     "id": 4147,
     "Description":"K38, aka El Morro, is a famous but very crowded right, peeling fast and hollow over an urchin farm. Best on a S swell, or a stronger W to NW pulse at low to mid. Working on similar swells but higher tides, K38.5 is another fast, walled-up right reef plus a left across the bay. Escape the thicker crowds by paddling to K39, an outside-breaking reef able to produce quality lefts and rights in any sizeable swell.",
-    "img":"http://wavecation.com/sites/default/files/imagecache/property/k38point5.jpg"
+    "img":"http://wavecation.com/sites/default/files/imagecache/property/k38point5.jpg",
+    "img2":"http://www.surf-forecast.com/system/images/9471/large/K-38.jpg?1386376912",
+    "img3":"http://wavecation.com/sites/default/files/imagecache/property/as_surf_baja_tube_576.jpg",
+    "img4":"http://www.robertsk38.com/IMG_1402.jpg"
   },
   {
     "name": "Las Gaviotas, Mexico",
     "id": 4149,
     "Description":"Facing a guarded condo community, the semi-private reef off Las Gaviotas is more of a longboard wave for all levels. Sometimes sectiony and often crowded, it prefers a due S swell.",
-    "img":"http://www.morningglass.us/wp-content/uploads/2014/04/IMG_0015-600x414.jpg"
+    "img":"http://www.morningglass.us/wp-content/uploads/2014/04/IMG_0015-600x414.jpg",
+    "img2":"http://www.thesurfersguides.com/sitebuilder/images/K38-600x348.jpg",
+    "img3":"https://imagesus-ssl.homeaway.com/mda01/963154c2-1ca2-4de9-add6-679c5f319593.1.10",
+    "img4":"http://stwww.surfermag.com/wp-content/uploads/2014/05/ellis_BAJA-7183.jpg"
   },
   {
     "name": "Lance's Left, Mentawai Islands",
     "id": 625,
+    "Description":"The right pointbreak at Calafia features disco music blaring from the cliff-side bar, but is mushy without a strong S swell and gets rocky at low tid",
+    "img":"http://surftotal.com/en/media/k2/galleries/277/DSC_0194%20lances%20left%20is%20one%20of%20my%20favourite%20places.jpg",
+    "img2":"http://www.arimbi.com.au/wp-content/uploads/2013/03/homepage-lances-left.jpg",
+    "img3":"http://jasonwolcottphotography.com/wp-content/uploads/2012/02/mentawai-island-life.jpg",
+    "img4":"http://resortlatitudezero.com/wp-content/uploads/2012/07/SWSS0354-copy.jpg"
+  },
+   {
+    "name": "Calafia, Mexico",
+    "id": 4145,
     "Description":"Like yin is to yang, this muscular left is the perfect foil to it’s more famous righthanded brother. When the wind is in the E and there’s a sniff of S swell, up to 3 defined sections will wrap into the bay at the bottom of Sipura island, delivering anything from small lumpy walls to warp speed barrels at the top, centre and tail of the reef. Shifts mischievously in overhead swells and suckers the greedy into a corrugated end section that’s both beautifully hollow and unmakeable in equal measure – get out while the going is good! Mid tide is best and it will handle beyond double-overhead for the hellmen. Super-consistent so often crowded these days, although the shifting line-up looks after those who wait wider for the guaranteed sneaker sets. Getting caught inside on a big day is terrifying - use the keyhole if you end up on the reef.",
-    "img":"http://surftotal.com/en/media/k2/galleries/277/DSC_0194%20lances%20left%20is%20one%20of%20my%20favourite%20places.jpg"
+    "img":"http://journaldelpacifico.com/blog/wp-content/uploads/2012/08/Baja-Surf-Line-Up.jpg",
+    "img2":"http://assets.espn.go.com/photo/2009/0505/as_surf_baja_tube_576.jpg",
+    "img3":"https://sergededina.files.wordpress.com/2012/05/img_3760.jpg",
+    "img4":"http://www.superstokedmagazine.com/wp-content/uploads/2013/06/wikimedia-baja-malibu.jpg"
   }
 
 ]

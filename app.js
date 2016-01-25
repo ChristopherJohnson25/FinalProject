@@ -57,22 +57,23 @@ app.get('/', function(req, res){
 });
 
 app.get('/report/:id', function(req, res){
-	var locationId = req.params.id;
+	var locationId = parseInt(req.params.id);
 	console.log(locationId);
 	db.collection('locations').find({id:locationId}).toArray(function(err, spot) {
 		request('http://magicseaweed.com/api/'+process.env.SEAWEED_KEY+'/forecast/?spot_id='+ locationId, function(err, results){
 			if (err) {
 				console.log("error!", err)
 			} try {
+				console.log(spot)//empty array!?!?!?!
 				var body = JSON.parse(results.body);
+				console.log(results.body)
 				swellDirection = Math.ceil(body[0].swell.components.combined.direction/5)*5
 				res.render('report', {results: body, locationId: locationId, spot: spot})
 			} catch(e) {
-				console.log(e);
+				console.log('errerrerer',e);
 				res.send("We're sorry. we're having some problems with the api.");
 			}
 		});
-		console.log(spot)//empty array!?!?!?!
 	});
 });
 

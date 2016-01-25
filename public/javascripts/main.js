@@ -41,7 +41,7 @@ $.ajax({
 
   $('#chart1, #chart2').click(function(){
         console.log('charts clicked')
-        $('.long.modal')
+        $('.large.modal')
         .modal('show')
     });
 
@@ -55,6 +55,7 @@ $.ajax({
     initialRating: 3,
     maxRating: 5
     });
+
 
 
 
