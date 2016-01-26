@@ -145,7 +145,6 @@ body {
 	height:300px;
 	overflow-x: scroll;
 	margin-bottom: 35px;
-	position: absolute;
 	margin-top: 580px;
 	margin-left: 20px;
 	border-style: solid;
@@ -189,19 +188,16 @@ body {
 	padding-bottom: 7px;
 }
 
-.instagram {
-	width:40%;
-	height:300px;
-	margin-bottom: 35px;
-	position: absolute;
-	margin-top: 580px;
-	margin-left: 20px;
-	border-style: solid;
-/*	background-color: rgba(255,255,255,1);*/
-	background-color: pink;
-	border-color: #2185d0;
-}
-
 .iframe {
 	width:10%;
+}
+
+.comments {
+	width:40%;
+	height:300px;
+	overflow-x: scroll;
+	margin-bottom: 35px;
+	border-style: solid;
+	background-color: rgba(255,255,255,1);
+	border-color: #2185d0;
 }

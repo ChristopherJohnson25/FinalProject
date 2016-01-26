@@ -88,5 +88,11 @@ app.get('/api/locations', function(req, res) {
  	})
 });
 
+app.post('/api/comments', function(req, res) {
+	console.log('HIT API COMMENTS ', req.body);
+	db.collection('locations').update({id: parseInt(req.body.id)}, {$addToSet: { comments: req.body.comment}});
+	res.end();
+})
+
 
 app.listen(process.env.PORT || '3000');

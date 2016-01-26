@@ -56,7 +56,17 @@ $.ajax({
     maxRating: 5
     });
 
-
+    $('.comments').on('keypress', function(event){
+        if (event.which === 13) {
+            var $this = $(this),
+                id = parseInt(location.pathname.split('/')[2]),
+                commentText = $this.val();
+            console.log('$THIS ', $this.val());
+            $('.comments-text').append('<p>' + commentText + '</p>');
+            $this.val('');
+            $.post('/api/comments', {id: id, comment: commentText});
+        }
+    });
 
 
 
