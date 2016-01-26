@@ -37,10 +37,12 @@ app.use(express.static(path.join(__dirname, 'node_modules')));
 // 	return Math.floor(Math.random()*1234)
 // };
 
+app.get('/', function(req,res){
+	res.render('enter');
+})
 
 
-
-app.get('/', function(req, res){
+app.get('/enter', function(req, res){
 	var ids = Array(384,383,381,2159,386,4214,295,4211,669,3682,3051,2226,2568,4147,4149);
 	var randoId = ids[Math.floor(Math.random()*ids.length)];
 	db.collection('locations').find({}).toArray(function(err, locations){
