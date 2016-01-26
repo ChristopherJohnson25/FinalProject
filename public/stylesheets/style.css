@@ -197,7 +197,20 @@ body {
 	height:300px;
 	overflow-x: scroll;
 	margin-bottom: 35px;
+	float:left;
+	margin-left: 20px;
 	border-style: solid;
+	border-width: 3px;
 	background-color: rgba(255,255,255,1);
 	border-color: #2185d0;
+	color:#2185d0;
+}
+
+.comments-text {
+	padding:25px;
+	color:#2185d0;
+}
+
+.comments-text h3 {
+	color:black;
 }
